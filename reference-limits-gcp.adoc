@@ -18,6 +18,7 @@ O Cloud Volumes ONTAP tem limites de configuração de storage para fornecer ope
 
 
 
+[[maximum-system-capacity-by-license]]
 == Capacidade máxima do sistema por licença
 
 A capacidade máxima do sistema para um sistema Cloud Volumes ONTAP é determinada pela sua licença. A capacidade máxima do sistema inclui storage baseado em disco e storage de objetos usado para categorização de dados.
@@ -56,6 +57,7 @@ Não, não. Os dados em um par de HA são espelhados de forma síncrona entre os
 
 
 
+[[disk-and-tiering-limits]]
 == Limites de disco e disposição em camadas
 
 A tabela abaixo mostra a capacidade máxima do sistema com discos somente e com a disposição em camadas de discos e dados inativos no storage de objetos. Os limites de disco são específicos para discos que contêm dados de usuário. Os limites não incluem o disco de inicialização e o disco raiz.
@@ -84,6 +86,7 @@ Este limite é definido por limites de máquinas virtuais no Google Cloud Platfo
 
 
 
+[[aggregate-limits]]
 == Limites agregados
 
 O Cloud Volumes ONTAP agrupa os discos do Google Cloud em _agregados_. Agregados fornecem storage para volumes.
@@ -117,6 +120,7 @@ Notas:
 
 
 
+[[logical-storage-limits]]
 == Limites lógicos de armazenamento
 
 [cols="22,22,56"]
@@ -163,6 +167,7 @@ Notas:
 
 
 
+[[iscsi-storage-limits]]
 == Limites de armazenamento iSCSI
 
 [cols="3*"]

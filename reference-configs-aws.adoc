@@ -18,6 +18,7 @@ Várias configurações do Cloud Volumes ONTAP são suportadas na AWS.
 
 
 
+[[supported-number-of-nodes]]
 == Número de nós com suporte
 
 O Cloud Volumes ONTAP está disponível na AWS como um sistema de nó único e como um par de nós de alta disponibilidade (HA) para tolerância de falhas e operações ininterruptas.
@@ -26,12 +27,14 @@ A atualização de um único sistema de nós para um par de HA não é compatív
 
 
 
+[[supported-storage]]
 == Armazenamento suportado
 
 O Cloud Volumes ONTAP dá suporte a vários tipos de discos EBS e ao storage de objetos S3 para categorização de dados. A capacidade máxima de armazenamento é determinada pela licença que você escolher.
 
 
 
+[[storage-support-by-license]]
 === Suporte de storage por licença
 
 Cada licença suporta uma capacidade máxima de sistema diferente. A capacidade máxima do sistema inclui storage baseado em disco e storage de objetos usado para categorização de dados. O NetApp não suporta exceder esse limite.
@@ -62,6 +65,7 @@ Cada licença suporta uma capacidade máxima de sistema diferente. A capacidade 
 
 
 
+[[supported-disk-sizes]]
 === Tamanhos de disco suportados
 
 Na AWS, um agregado pode conter até 6 discos com o mesmo tipo e tamanho.
@@ -104,11 +108,12 @@ Na AWS, um agregado pode conter até 6 discos com o mesmo tipo e tamanho.
 |===
 
 
+[[supported-ec2-compute]]
 == Computação EC2K suportada
 
 Cada licença do Cloud Volumes ONTAP suporta diferentes tipos de instância do EC2. Para sua conveniência, a tabela abaixo mostra o vCPU, a RAM e a largura de banda para cada tipo de instância suportada. https://aws.amazon.com/ec2/instance-types/["Você deve consultar a AWS para obter os detalhes mais recentes e completos sobre os tipos de instância do EC2"^].
 
-As larguras de banda mostradas na tabela abaixo correspondem aos limites documentados da AWS para cada tipo de instância. Esses limites não se alinham completamente com o que o Cloud Volumes ONTAP pode fornecer. Para obter o desempenho esperado, https://www.netapp.com/pdf.html?item=/media/9088-tr4383pdf.pdf["Relatório Técnico da NetApp 4383: Caraterização de desempenho do Cloud Volumes ONTAP em Serviços Web da Amazon com cargas de trabalho de aplicativos"^] consulte a .
+As larguras de banda mostradas na tabela abaixo correspondem aos limites documentados da AWS para cada tipo de instância. Esses limites não correspondem totalmente ao que Cloud Volumes ONTAP pode fornecer. Para o desempenho esperado, consulte  https://www.netapp.com/pdf.html?item=/media/9088-tr4383.pdf["Relatório Técnico da NetApp 4383: Caraterização de desempenho do Cloud Volumes ONTAP em Serviços Web da Amazon com cargas de trabalho de aplicativos"^].
 
 [cols="8*"]
 |===
@@ -193,6 +198,7 @@ As larguras de banda mostradas na tabela abaixo correspondem aos limites documen
 
 
 
+[[supported-regions]]
 == Regiões suportadas
 
 Para obter suporte à região da AWS, https://bluexp.netapp.com/cloud-volumes-global-regions["Regiões globais do Cloud volumes"^] consulte .
